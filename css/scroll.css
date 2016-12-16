@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    width: 78%;
+    float: right;
+}
+
+#main div.target {
+    background: white;
+    height: 400px;
+}
+
+
+
+#nav {
+    width: 100%;
+    position: fixed;
+}
+
+#nav nav {
+    position: fixed;
+    width: 15%;
+    right-padding:20px;
+}
+
+#nav a {
+    border-bottom: 1px solid #666;
+    color: white;
+    background-color: #3f3b3c;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#nav a:hover, #nav a.active {
+    background: black;
+    color: #fff;
+}
